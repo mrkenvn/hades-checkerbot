@@ -43,18 +43,18 @@ if(!isBanned($userId) && !isMuted($userId)){
 
 Send /cmds for a list of all commands!
 
-My Master →@strikerop95
-Bot By @strikermarket</b>
+My Master →@blackmmo68
+Bot By @hadeschecker68</b>
 
 $messagesec",
 	'parse_mode'=>'html',
 	'reply_to_message_id'=> $message_id,
     'reply_markup'=>json_encode(['inline_keyboard' => [
         [
-          ['text' => "🔥 Created By 🔥", 'url' => "t.me/strikerop95"]
+          ['text' => "🔥 Created By 🔥", 'url' => "t.me/blackmmo68"]
         ],
         [
-          ['text' => "🔱 Join Channel 🔱", 'url' => "t.me/strikermarket"]
+          ['text' => "🔱 Join Channel 🔱", 'url' => "t.me/hadeschecker68"]
         ],
       ], 'resize_keyboard' => true])
         
@@ -108,7 +108,7 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
 
 <b>/myapikey | !myapikey - View the added SK Key</b>
 
-<b>ϟ Join Channel → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+<b>ϟ Join Channel → <a href='t.me/blackmmo68'>HADES CHECKER</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
     'reply_markup'=>json_encode(['inline_keyboard'=>[
@@ -134,7 +134,7 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
 
 <b>/iban | !iban</b> - IBAN Checker
   
-  <b>ϟ Join Channel → <a href='t.me/strikermarket'>STRIKER MARKET</a></b>",
+  <b>ϟ Join Channel → <a href='t.me/blackmmo68'>HADES CHECKER</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
     'reply_markup'=>json_encode(['inline_keyboard'=>[
