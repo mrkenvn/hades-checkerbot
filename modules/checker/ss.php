@@ -145,8 +145,8 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
 
 
             $ip = array(
-              1 => 'socks5://p.webshare.io:1080',
-              2 => 'http://p.webshare.io:80',
+              1 => 'socks5://' . $_ENV['USER_PASS'] . '@4bba78e8c5a4c526.shg.na.pyproxy.io:16666',
+              2 => 'http://' . $_ENV['USER_PASS'] . '@4bba78e8c5a4c526.shg.na.pyproxy.io:16666',
             ); 
             
             $socks = array_rand($ip);
